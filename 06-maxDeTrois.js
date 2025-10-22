@@ -27,5 +27,9 @@ function maxDeTrois(a, b, c) {
   // Calcul du maximum
   return Math.max(a, b, c);
 }
+
+console.log("maxDeTrois(7, 3, 5) =", maxDeTrois(7, 3, 5)); // Affiche : 7
+console.log("maxDeTrois(4, 4, 4) =", maxDeTrois(4, 4, 4)); // Affiche : Les trois nombres sont égaux
+console.log("maxDeTrois('4', 4, 4) =", maxDeTrois("4", 4, 4)); // Affiche : null
 // Ne pas modifier la ligne ci-dessous
 module.exports = { maxDeTrois };

@@ -21,5 +21,8 @@ function estImpair(n) {
   return Math.abs(n % 2) === 1;
 }
 
+console.log("estImpair(3) =", estImpair(3)); // Affiche : true
+console.log("estImpair(4) =", estImpair(4)); // Affiche : false
+console.log("estImpair('abc') =", estImpair("abc"));
 // Ne pas modifier la ligne ci-dessous
 module.exports = { estImpair };

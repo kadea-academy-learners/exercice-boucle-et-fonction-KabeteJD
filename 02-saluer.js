@@ -12,6 +12,6 @@
 function saluer(nom = "inconnu") {
   console.log(`Bonjour, ${nom}`);
 }
-
+saluer();
 // Ne pas modifier la ligne ci-dessous
 module.exports = { saluer }

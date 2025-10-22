@@ -22,8 +22,9 @@ function max(a, b) {
   if (a === b) return "Les deux nombres sont égaux";
   return a > b ? a : b;
 }
-
-module.exports = { max };
+console.log("max(7, 3) =", max(7, 3)); // Affiche : 7
+console.log("max(5, 5) =", max(5, 5)); // Affiche : Les deux nombres sont égaux
+console.log("max('5', 10) =", max("5", 10)); // Affiche : null
 
 // Ne pas modifier la ligne ci-dessous
-module.exports = { max }
+module.exports = { max };
